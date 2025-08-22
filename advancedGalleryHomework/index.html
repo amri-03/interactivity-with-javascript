@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src = "js/gallery.js"></script>
+</head>
+<body onload="updatingAttribute()">
+    <h1>Photo Gallery</h1>
+
+    <div id="image" role="contentinfo">Hover over an image below to display here.</div>
+
+    <div class="grid" role="banner">
+        <img class="preview" alt="Night Sky" src="images/night-sky.jpeg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Landscape Photography" src="images/landscape-photography.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Nature Photography" src="images/nature-photography.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Flower CloseUp" src="images/flower-closeup.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Silhouette Photography" src="images/silhouettePhotography.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Mountain Landscape" src="images/mountain-landscape.jpeg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Natural Light Photography" src="images/natural-light.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Water Reflection" src="images/waterReflection.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Urban Life City" src="images/urban-life.jpg" onfocus="upDate(this)" onblur="unDo()" onmouseover="upDate(this)" onmouseout="unDo()">
+    </div>
+
+</body>
+</html>
