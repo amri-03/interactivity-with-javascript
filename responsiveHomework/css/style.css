@@ -46,7 +46,7 @@ div > p {
 
 div{
     display: inline-block;
-    width: 25%;
+    width: 90vw;
     margin: 5px;
     padding: 2px;
 }
