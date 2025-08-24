@@ -44,6 +44,7 @@ h2{
 
 p {
     padding: 1em 2em;
+    /*text-align: justify;*/
 }
 
 .container {
@@ -51,7 +52,7 @@ p {
 }
 
 figure {
-    background-color: #3E5F44;
+    background-color: #DEE8CE;
     padding: 0.8em;
     border-radius: 0.9em;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -65,8 +66,8 @@ img {
 }
 
 .label{
-    color: #fefcd9;
-    background: #3E5F44;
+    color: #142001;
+    background: #DEE8CE;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2em;
@@ -113,14 +114,10 @@ footer a:hover {
     .grid {
         grid-template-columns: 1fr 1fr;
     }
-    figure {
-        background-color: unset;
-        box-shadow: none;
-    }
     img {
         background-color: #3E5F44;
-        padding: 0.5rem;
-        border: #0f0625 1px solid;
+        padding: 0;
+        border: 3px solid #DEE8CE;
         border-radius: 50%;
     }
     .label {
@@ -159,21 +156,13 @@ footer a:hover {
 
 /* For the appearance in dark mode */
 @media (prefers-color-scheme: dark) {
-    body {
-        background: black;
-    }
-    h2, p {
-        color: #C9CDCF;
-    }
     figure {
-        background-color: #DEE8CE;
+        background-color: #142001;
     }
     .label {
-        background-color: #DEE8CE;
-        color: #322e47;
-    }
-    img {
-        border-color: black;
+        font-weight: normal;
+        background-color: #142001;
+        color: #DEE8CE;
     }
 }
 
