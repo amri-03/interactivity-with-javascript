@@ -177,6 +177,9 @@ footer a:hover {
     figure {
         background-color: #142001;
     }
+    img {
+        border: 5px solid black;
+    }
     .label {
         font-weight: normal;
         background-color: #142001;
