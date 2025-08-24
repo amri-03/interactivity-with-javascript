@@ -52,6 +52,7 @@ p {
 }
 
 figure {
+    margin: 10px;
     background-color: #DEE8CE;
     padding: 0.8em;
     border-radius: 0.9em;
