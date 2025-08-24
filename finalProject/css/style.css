@@ -132,22 +132,9 @@ footer a:hover {
 
 /*Viewport size 992px*/
 @media (min-width: 992px) {
-    .container {
-        max-width: 1900px;
-        margin: 0 auto;
-    }
-
-    .grid {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
     figure:nth-child(3n) {
         grid-column: 1 / -1;
-        max-width: 1200px;
-        /*margin: 0 auto;*/
     }
-
     img {
         border: none;
         transition: none;
