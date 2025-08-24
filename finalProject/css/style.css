@@ -144,6 +144,11 @@ footer a:hover {
     figure, img, .label {
         border-radius: 0;
     }
+    .label {
+        font-weight: normal;
+        background-color: #DEE8CE;
+        color: #142001;
+    }
 }
 
 
