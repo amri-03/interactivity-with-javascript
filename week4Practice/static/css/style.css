@@ -1,0 +1,96 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 115%;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #FBF3D5;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 400%;
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    color: #210F37;
+    margin: 0;
+}
+
+header img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+    justify-content: space-evenly;
+}
+
+header nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    font-size: 120%;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    display: block;
+    /*width: auto;*/
+    padding: 0 10px;
+}
+
+nav a {
+    display: block;
+}
+
+main {
+    background-color: #FFE100;
+    font-size: 100%;
+    padding: 10px;
+}
+
+p {
+    line-height: 1.5;
+    font-family: "Libertinus Sans", sans-serif;
+    font-size: 135%;
+}
+
+.gallery-item {
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    display: block;
+    align-self: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 25px 0;
+    justify-content: space-evenly;
+}
+
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+footer {
+    padding: 10px;
+    background-color: #9CAFAA;
+}
